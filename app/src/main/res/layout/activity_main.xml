@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kk"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/my_warnings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warning List"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:backgroundTint="#BF360C"
+            android:layout_alignParentBottom="true"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#004D40"
+            android:text="Refresh weather"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <Spinner
+            android:id="@+id/spin_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:backgroundTint="#000"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_of_days"
+        android:layout_below="@id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_above="@id/ll"
+        android:layout_margin="10dp"
+
+        ></ListView>
+
+
+
+
+</RelativeLayout>

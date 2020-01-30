@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Dublin_Assignment_kotlin</string>
+
+    <string-array name="area">
+
+        <item>dublin</item>
+
+
+    </string-array>
+    <string-array name="level">
+
+        <item>Select Level</item>
+        <item>Yellow and Above</item>
+        <item>Orange and Above</item>
+        <item>Red and Above</item>
+
+
+    </string-array>
+    <string-array name="type">
+
+        <item>Select Type</item>
+        <item>All</item>
+        <item>Rain</item>
+        <item>Wind</item>
+        <item>Snow/Ice</item>
+        <item>Fog</item>
+        <item>Low Temprature/Ice</item>
+        <item>Thunderstorm</item>
+        <item>Advisory</item>
+
+
+    </string-array>
+
+</resources>

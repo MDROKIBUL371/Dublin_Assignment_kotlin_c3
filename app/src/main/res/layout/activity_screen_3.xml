@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen_3"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Area"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            ></TextView>
+
+        <Spinner
+            android:id="@+id/spinner_area"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="41dp"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Level"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            ></TextView>
+
+        <Spinner
+            android:id="@+id/spinner_level"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="41dp"></Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            ></TextView>
+
+        <Spinner
+            android:id="@+id/spinner_type"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="41dp"></Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_save_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:visibility="gone"
+        android:backgroundTint="#4CAF50"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_delete_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:backgroundTint="#FF0000"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_close_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="close"
+        android:backgroundTint="#788DFF"
+        android:textColor="#fff"
+        android:layout_gravity="center"/>
+</LinearLayout>
